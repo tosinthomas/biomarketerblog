@@ -34,17 +34,30 @@ h2 {
 img {
    margin: 20px 0px 0px 0px;
  }
-ul {
+#nav ul {
   padding: 10px;
   background: rgba(0,0,0,0.5);
   font-size: 16px;
   font-family: Gillsans;
   font-color: white;
 }
-li {
+#nav li {
   display: inline;
   padding: 0px 10px 0px 10px;
   color: white;
+}
+#pro ul {
+  padding: 0;
+  background: rgba(255,255,255,0);
+  font-size: 18px;
+  font-family: Gillsans;
+  font-color: black;
+}
+#pro li {
+  display: list-style;
+  padding: 0;
+  margin: 0;
+}
 }
 article {
   max-width: 500px;
@@ -87,7 +100,7 @@ input type {
   <div class="header">
     <h1>BioMarketer Blog</h1>
 </div>
-  <ul>
+  <<ul id="nav">>
     <li><a href="#">Home</a></li>
     <li><a href="#">BioMarketing</a></li>
     <li><a href="#">My Magic Wand</a></li>
@@ -112,7 +125,7 @@ input type {
     Carrying out Google Ads is usually just an icing on the cake.</P>
     <p> Enough about my <em>skills</em>, do I even have the <em>academic and professional credentials</em> needed to get the job done? Well, I do.</p>
     <h2>Professional Qualifications</h2>
-    <ul style="list-style-type:disc;">
+    <ul id="pro">>
         <li>Bachelors Degree in Biochemistry from the University of Lagos, Nigeria</li>
         <li>International Mini-MBA from Marketing and Management Universal Business School, USA</li>
         <li>Certified Digital Marketing Professional by Digital Marketing Institute, Ireland</li>
